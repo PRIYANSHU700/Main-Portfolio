@@ -1,6 +1,3 @@
-// This file contains placeholder data for the portfolio
-// Replace with your actual information
-
 export const personalInfo = {
   name: "PRIYANSHU",
   title: "Full Stack Developer",
