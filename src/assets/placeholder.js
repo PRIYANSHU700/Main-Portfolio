@@ -42,8 +42,7 @@ export const projects = [
     id: 1,
     title: "Youtube Clone",
     description: "I built this project using Rapid API",
-    imageUrl:
-      "https://imagekit.io/tools/asset-public-link?detail=%7B%22name%22%3A%22project3.png%22%2C%22type%22%3A%22image%2Fpng%22%2C%22signedurl_expire%22%3A%222028-05-02T11%3A28%3A01.872Z%22%2C%22signedUrl%22%3A%22https%3A%2F%2Fmedia-hosting.imagekit.io%2Fb3f293b7e0964915%2Fproject3.png%3FExpires%3D1840879682%26Key-Pair-Id%3DK2ZIVPTIP2VGHC%26Signature%3DMGOU5R-JPA66rZ8K4M1ILwJpdRFcj9ZtaSR2IrB1bt~fscobaibBKa2dxF-OpgvEFn5-FDR7GcxM~SlrKjiIw1sILzSQHhiQEYozGxedcmKFRreHd4B8dSedfzN7C7jKkPblOBw4ALwlMsf2csQ4Z20CpfLS6hfguIxk6qg0UkhiQxxgJoN79ZIeP9oBjy8evuFsqerxRylhSD-5VbCxeLJOxVExK4o~7fEFDGmV7jbfNghUs6GtOOe8pg9Qx7aiS9QPoh420QKIkdJLMsaHzlDdxK~9lTEqGj7mk3zxb5ZhBrQU04Hw2yfxc2pbiCaEHHFRsfZp~wLuDuO3jaCu5w__%22%7D",
+    imageUrl: "project3.png",
     tags: ["React", "Node.js", "Rapid API", "Material-UI"],
     demoUrl: "https://youtube-clone77.vercel.app/",
     codeUrl: "https://github.com/PRIYANSHU700/YoutubeClone77",
