@@ -65,8 +65,8 @@ export const projects = [
       "Developed a Crop Yield Prediction System using Random Forest and XGBoost, achieving 95.51% accuracy with XGBoost. Built a Streamlit interface enabling farmers to input data and receive real-time yield predictions for informed decision-making.",
     imageUrl: "project2.png",
     tags: ["Python", "XGBoost", "Random Forest", "Streamlit"],
-    demoUrl: "https://example.com/demo3",
-    codeUrl: "https://github.com/johndoe/weather-app",
+    demoUrl: "https://crop-yield-prediction-system77.streamlit.app/",
+    codeUrl: "https://github.com/PRIYANSHU700/Crop-Yield-Prediction-System.git",
     featured: false,
   },
   {
