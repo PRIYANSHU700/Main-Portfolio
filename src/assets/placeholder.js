@@ -178,7 +178,7 @@ export const education = [
   },
   {
     id: 2,
-    institution: "Kendriya Vidyalaya No.1 AFS Jamnagar",
+    institution: "Kendriya Vidyalaya No.1 AFS Jamnagar Gujarat",
     degree: "XII",
     duration: "",
     description: "",
