@@ -3,7 +3,7 @@
 
 export const personalInfo = {
   name: "PRIYANSHU",
-  title: "FULL STACK Developer",
+  title: "Full Stack Developer",
   email: "kpriyanshu200@gmail.com",
   phone: "+91 8198863457",
   location: "Zirakpur, Punjab",
