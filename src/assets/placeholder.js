@@ -15,7 +15,8 @@ export const personalInfo = {
 I specialize in React.js, Next.js and have worked with various frameworks and libraries to deliver robust solutions. I believe in clean code, responsive design, and accessibility.
 
 When I'm not coding, you can find me doing Workout, Gaming , or experimenting with new recipes in the kitchen. I'm always eager to learn new technologies and techniques to improve my craft.`,
-  avatarUrl: "photo.png",
+  avatarUrl:
+    "https://media-hosting.imagekit.io/3bf0e0a8ac1e42ca/photo.png?Expires=1840899966&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=xCbfGS7h4KGQEDpP-rqIh3K3U1jEyFzJibYr8mMHvhQGgZZsW83Y-UK2IOg5PUysOQtdcezmcxFvghsvBhVSva6-wZSDlqrrYBRHbU5wDC-U2ZZY4z5-ItTa1H94rfqECy-pj0rPW0F94VlMC672tuovRNLlJ1z14XpRtUrDa~3tMiVdo6ZGDeYInVMyA~Rp7qCSQCmrRfwL5t10UNbG~JBvNt-D8zrFs2Q3HdYnmeis7QvLJxBdoDc7A0WEyk2phA8JxvJR-oBKOxG7a9Jg4IVdJZaWmH-zzhu4EZtSrlJBgA7~sEBLCxbX5iUG6HUrD7ao3A91rzvCmpPCzZBK7w__",
   resumeUrl:
     "https://docs.google.com/document/d/1ZDMjKy_5bn8PoY-crZL_LbXv18Yj2KUX/edit?usp=sharing&ouid=110881023256295559243&rtpof=true&sd=true",
   social: {
@@ -42,7 +43,8 @@ export const projects = [
     id: 1,
     title: "Youtube Clone",
     description: "I built this project using Rapid API",
-    imageUrl: "project3.png",
+    imageUrl:
+      "https://media-hosting.imagekit.io/f4416191b01b4c4a/project3.png?Expires=1840899550&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=GPAuBFSi7yQnVLteSyW8flOyMq07rNqpTFhRzJvh7Gq2hZUrmko-caO66FPlPpGynOrIxDb6YnGFrAwkDbjVESWMVcnL226ENJs46AkQXsSRkq~GEMlgPTlH-ZtS5IAk0GFuMOmfxCeuutjnx3h8Nt-oZfl2xQvYEcqmyF~cuHtgs0fMitYpIKC6b2zjN~FlEDP2LCirrmXe7f~Ll1XK85O6OC6Ggcv9AAJzweI9XlUpjwfRY5Frg-lumOOe3BwUEo1x2Fvyo6Ts1C7Qpf3dBzTVeexk0WDhokBu2cK7jrZikaUet9fQJHmu9Dx1mkC1rmOsMli5bdmOEk3Ondb49Q__",
     tags: ["React", "Node.js", "Rapid API", "Material-UI"],
     demoUrl: "https://youtube-clone77.vercel.app/",
     codeUrl: "https://github.com/PRIYANSHU700/YoutubeClone77",
@@ -52,7 +54,8 @@ export const projects = [
     id: 2,
     title: "Twitter Clone",
     description: "I built this project using MERN Stack.",
-    imageUrl: "project1.png",
+    imageUrl:
+      "https://media-hosting.imagekit.io/e84f80201a6b4dd3/project1.png?Expires=1840899550&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=RDs-4IC9rvWx7rwvkb2i-BF4TDwLMwLQ58O~n0zCv9Gw6Evu4lMy4DZ5xWBLYm~raaHDWnSZp0I-6CAIjJSIvyj2eXgSk9zVHyfgxU-oTSRbL51ku2fuKf4UyYsO9rEKAJs3KQXPupl3oVADz5pnIis1EpF0dd40TsdupHDpEKmpKbvbnmJhZN5fiuy2lLV~1IgCo3-k5~SVQrs9GL6ySLxnSrvGzJKKzZL71ojQeUPsnv288Gja3mfO2LDMMICiP304AN~Umf5pBSOAGWhdMYHpuPMDEoDgMjldZRJXqKCvxo7rcdYc-sIwLjPKxrtw69vUHjWVL0z-AcqreK3qaA__",
     tags: ["React", "Express", "MongoDB", "Node.js"],
     demoUrl: "https://twitter-clone-priyanshu.vercel.app/",
     codeUrl: "https://github.com/PRIYANSHU700/twitter-clone.git",
@@ -63,7 +66,8 @@ export const projects = [
     title: "Crop Yield Prediction System",
     description:
       "Developed a Crop Yield Prediction System using Random Forest and XGBoost, achieving 95.51% accuracy with XGBoost. Built a Streamlit interface enabling farmers to input data and receive real-time yield predictions for informed decision-making.",
-    imageUrl: "project2.png",
+    imageUrl:
+      "https://media-hosting.imagekit.io/2383b373f0d44356/project2.png?Expires=1840899550&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=xR50nS3-6b8k~h2GvDIHi3V0GbKqjL9AnRIkhrP~jfiW~vt1uQ9BpfKKqWxUKs9Sx1Ac~rGZX3z5RciY4eDYUKYsR8~y5rjkVYLlnIHsFum9tAKYEl5S8FExtp25PRAxX8JmM-P4jddMqkA1pvNFLINiMPX6evXQAPkj73eRRZVvl~Db9EPol99jzy4p1X20iB2uKeTROcYD6mfzGtGQCbGaCEw3LyETukcnAkgZ0fCgpkpYDnK-xXo2SszhQdp8tSjqGB9Lv0zUMWp8cagrz41S2aTl4VAs3tnP-GIFsW5-QAtc4vw6icRFSNrZiMskPINTz6ZnKws~x-X0n-H6Kg__",
     tags: ["Python", "XGBoost", "Random Forest", "Streamlit"],
     demoUrl: "https://crop-yield-prediction-system77.streamlit.app/",
     codeUrl: "https://github.com/PRIYANSHU700/Crop-Yield-Prediction-System.git",
@@ -74,7 +78,8 @@ export const projects = [
     title: "Portfolio Website",
     description:
       "A personal portfolio website created using Next.Js to showcase projects and skills. Deployed on Vercel for seamless CI/CD and global delivery.",
-    imageUrl: "project0.jpg",
+    imageUrl:
+      "https://media-hosting.imagekit.io/833b12ee9f484b75/project0.jpg?Expires=1840899550&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=0iAN4l1fe5IZX7EPcWAphe5WdlrDSB7nXxo7c8PQI6ngIDZhf-Ph8CiH34TY4Teu9Bz8XVBZjyCVkte1FvrwH3LnA0BGL3b15SVk2Ta1zmANzHozqyRyO4kZ8t8jwrw-LoyNmbZJdwqXg3t9XtwUGNeSsg2fcpin8ooERjnlvbaMysbNHSmWE21EIq7dbrTJzYBo-wpyKEGyl5cO2EDrYaTiq-OqtCjHWAOh9GiaoF8OQD5qdMmB8MPpJehlYOuF0TEdl~obWeAcTwz-gD6Zm11X~fyqSmizv9JhHrnZ2GQ~OcJvAo6v8XgiBXERjqvxGYI62VCzQBoaTpB~7Ie8WA__",
     tags: ["Next.js", "Javascript", "Styled Components"],
     demoUrl: "https://portfolio-priyanshu77.vercel.app/",
     codeUrl: "https://github.com/PRIYANSHU700/Portfolio.git",
@@ -84,7 +89,8 @@ export const projects = [
     id: 5,
     title: "Hero Section Animation",
     description: "Developed using HTML,CSS,JAVASCRIPT.",
-    imageUrl: "project5.png",
+    imageUrl:
+      "https://media-hosting.imagekit.io/fbc08ffbad9c454e/project5.png?Expires=1840899550&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=CmRGRJYe6LzXflayzF1JBrQ8QcaAsyNzxXr5WLuJ~mJYyGBBBu3BmJ5aT~x0uKMIT5TUcU0aLxESqxcBg-OJPTAQL7giX5dWNvqRubHqSSSOLSYSOpnUGKpexi7GtJ1onOvnPtEtqTW68IW3hdvxiBbgukl9kLiWpYWWTLt8JlnLE-Vcks1stbqbKaz0zvF6gyqAYFFEpJTfrIhMs5DsmX4zvLwja9mnZsYQc1qm-AwgyptfxGzxwE2GPvcqR0kKng5L5sGYC5m2IrJHver7wIEt-uFQR3u5KC24akDxYNtAnJ1CXp65ZIILfovq5wGjhUcNSAKlvQqj1u2mCw36~Q__",
     tags: ["HTML", "CSS", "Javascript"],
     demoUrl: "https://itzfizz-assessment.vercel.app/",
     codeUrl: "https://github.com/PRIYANSHU700/Itzfizz-assessment",
