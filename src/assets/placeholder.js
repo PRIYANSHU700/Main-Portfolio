@@ -173,14 +173,14 @@ export const education = [
     id: 1,
     institution: "Army Public School DehuRoad Pune Maharashtra",
     degree: "X",
-    duration: "2018",
+    duration: "",
     description: "",
   },
   {
     id: 2,
     institution: "Kendriya Vidyalaya No.1 AFS Jamnagar",
     degree: "XII",
-    duration: "2020",
+    duration: "",
     description: "",
   },
   {
