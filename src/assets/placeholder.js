@@ -52,8 +52,7 @@ export const projects = [
     id: 2,
     title: "Twitter Clone",
     description: "I built this project using MERN Stack.",
-    imageUrl:
-      "https://drive.google.com/file/d/1UTWHh8sxocPHqNLkw2rgjp_hNVyF5zj9/view?usp=sharing",
+    imageUrl: "project1.png",
     tags: ["React", "Express", "MongoDB", "Node.js"],
     demoUrl: "https://twitter-clone-priyanshu.vercel.app/",
     codeUrl: "https://github.com/PRIYANSHU700/twitter-clone.git",
