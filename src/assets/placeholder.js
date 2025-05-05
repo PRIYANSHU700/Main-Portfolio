@@ -5,7 +5,7 @@ export const personalInfo = {
   phone: "+91 8198863457",
   location: "Chandigarh",
   bio: "Passionate full stack developer with expertise in creating beautiful, functional, and user-friendly web applications. I love turning complex problems into simple, intuitive designs.",
-  longBio: `I'm a full stack developer with over 2 years of experience building modern web applications. My journey in web development started when I built my first website at the age of 18, and I've been hooked ever since.
+  longBio: `I'm a full stack developer with over a year of experience building modern web applications. My journey in web development started when I built my first website at the age of 18, and I've been hooked ever since.
 
   I did my training related to application development at ThinkNext Technologies. Apart from that have been part of the Training & Placement Cell and headed various company placements at our college
 
