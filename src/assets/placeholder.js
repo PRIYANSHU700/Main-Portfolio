@@ -13,7 +13,7 @@ I specialize in React.js, Next.js and have worked with various frameworks and li
 
 When I'm not coding, you can find me doing Workout, Gaming , or experimenting with new recipes in the kitchen. I'm always eager to learn new technologies and techniques to improve my craft.`,
   avatarUrl:
-    "https://media-hosting.imagekit.io/3bf0e0a8ac1e42ca/photo.png?Expires=1840899966&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=xCbfGS7h4KGQEDpP-rqIh3K3U1jEyFzJibYr8mMHvhQGgZZsW83Y-UK2IOg5PUysOQtdcezmcxFvghsvBhVSva6-wZSDlqrrYBRHbU5wDC-U2ZZY4z5-ItTa1H94rfqECy-pj0rPW0F94VlMC672tuovRNLlJ1z14XpRtUrDa~3tMiVdo6ZGDeYInVMyA~Rp7qCSQCmrRfwL5t10UNbG~JBvNt-D8zrFs2Q3HdYnmeis7QvLJxBdoDc7A0WEyk2phA8JxvJR-oBKOxG7a9Jg4IVdJZaWmH-zzhu4EZtSrlJBgA7~sEBLCxbX5iUG6HUrD7ao3A91rzvCmpPCzZBK7w__",
+    "https://ik.imagekit.io/bl04duh5rm/photo.png?updatedAt=1748601787986&tr=w-1200%2Ch-628%2Cfo-auto",
   resumeUrl:
     "https://docs.google.com/document/d/1ZDMjKy_5bn8PoY-crZL_LbXv18Yj2KUX/edit?usp=sharing&ouid=110881023256295559243&rtpof=true&sd=true",
   social: {
@@ -76,7 +76,7 @@ export const projects = [
     description:
       "A personal portfolio website created using Next.Js to showcase projects and skills. Deployed on Vercel for seamless CI/CD and global delivery.",
     imageUrl:
-      "https://media-hosting.imagekit.io/833b12ee9f484b75/project0.jpg?Expires=1840899550&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=0iAN4l1fe5IZX7EPcWAphe5WdlrDSB7nXxo7c8PQI6ngIDZhf-Ph8CiH34TY4Teu9Bz8XVBZjyCVkte1FvrwH3LnA0BGL3b15SVk2Ta1zmANzHozqyRyO4kZ8t8jwrw-LoyNmbZJdwqXg3t9XtwUGNeSsg2fcpin8ooERjnlvbaMysbNHSmWE21EIq7dbrTJzYBo-wpyKEGyl5cO2EDrYaTiq-OqtCjHWAOh9GiaoF8OQD5qdMmB8MPpJehlYOuF0TEdl~obWeAcTwz-gD6Zm11X~fyqSmizv9JhHrnZ2GQ~OcJvAo6v8XgiBXERjqvxGYI62VCzQBoaTpB~7Ie8WA__",
+      "https://ik.imagekit.io/bl04duh5rm/project0.jpg?updatedAt=1748601812013&tr=w-1200%2Ch-628%2Cfo-auto",
     tags: ["Next.js", "Javascript", "Styled Components"],
     demoUrl: "https://portfolio-priyanshu77.vercel.app/",
     codeUrl: "https://github.com/PRIYANSHU700/Portfolio.git",
