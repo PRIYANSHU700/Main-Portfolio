@@ -41,7 +41,7 @@ export const projects = [
     title: "Youtube Clone",
     description: "I built this project using Rapid API",
     imageUrl:
-      "https://media-hosting.imagekit.io/f4416191b01b4c4a/project3.png?Expires=1840899550&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=GPAuBFSi7yQnVLteSyW8flOyMq07rNqpTFhRzJvh7Gq2hZUrmko-caO66FPlPpGynOrIxDb6YnGFrAwkDbjVESWMVcnL226ENJs46AkQXsSRkq~GEMlgPTlH-ZtS5IAk0GFuMOmfxCeuutjnx3h8Nt-oZfl2xQvYEcqmyF~cuHtgs0fMitYpIKC6b2zjN~FlEDP2LCirrmXe7f~Ll1XK85O6OC6Ggcv9AAJzweI9XlUpjwfRY5Frg-lumOOe3BwUEo1x2Fvyo6Ts1C7Qpf3dBzTVeexk0WDhokBu2cK7jrZikaUet9fQJHmu9Dx1mkC1rmOsMli5bdmOEk3Ondb49Q__",
+      "https://ik.imagekit.io/bl04duh5rm/project3.png?updatedAt=1748602441599&tr=w-1200%2Ch-628%2Cfo-auto",
     tags: ["React", "Node.js", "Rapid API", "Material-UI"],
     demoUrl: "https://youtube-clone77.vercel.app/",
     codeUrl: "https://github.com/PRIYANSHU700/YoutubeClone77",
@@ -52,7 +52,7 @@ export const projects = [
     title: "Twitter Clone",
     description: "I built this project using MERN Stack.",
     imageUrl:
-      "https://media-hosting.imagekit.io/e84f80201a6b4dd3/project1.png?Expires=1840899550&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=RDs-4IC9rvWx7rwvkb2i-BF4TDwLMwLQ58O~n0zCv9Gw6Evu4lMy4DZ5xWBLYm~raaHDWnSZp0I-6CAIjJSIvyj2eXgSk9zVHyfgxU-oTSRbL51ku2fuKf4UyYsO9rEKAJs3KQXPupl3oVADz5pnIis1EpF0dd40TsdupHDpEKmpKbvbnmJhZN5fiuy2lLV~1IgCo3-k5~SVQrs9GL6ySLxnSrvGzJKKzZL71ojQeUPsnv288Gja3mfO2LDMMICiP304AN~Umf5pBSOAGWhdMYHpuPMDEoDgMjldZRJXqKCvxo7rcdYc-sIwLjPKxrtw69vUHjWVL0z-AcqreK3qaA__",
+      "https://ik.imagekit.io/bl04duh5rm/project1.png?updatedAt=1748602246904&tr=w-1200%2Ch-628%2Cfo-auto",
     tags: ["React", "Express", "MongoDB", "Node.js"],
     demoUrl: "https://twitter-clone-priyanshu.vercel.app/",
     codeUrl: "https://github.com/PRIYANSHU700/twitter-clone.git",
@@ -64,7 +64,7 @@ export const projects = [
     description:
       "Developed a Crop Yield Prediction System using Random Forest and XGBoost, achieving 95.51% accuracy with XGBoost. Built a Streamlit interface enabling farmers to input data and receive real-time yield predictions for informed decision-making.",
     imageUrl:
-      "https://media-hosting.imagekit.io/2383b373f0d44356/project2.png?Expires=1840899550&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=xR50nS3-6b8k~h2GvDIHi3V0GbKqjL9AnRIkhrP~jfiW~vt1uQ9BpfKKqWxUKs9Sx1Ac~rGZX3z5RciY4eDYUKYsR8~y5rjkVYLlnIHsFum9tAKYEl5S8FExtp25PRAxX8JmM-P4jddMqkA1pvNFLINiMPX6evXQAPkj73eRRZVvl~Db9EPol99jzy4p1X20iB2uKeTROcYD6mfzGtGQCbGaCEw3LyETukcnAkgZ0fCgpkpYDnK-xXo2SszhQdp8tSjqGB9Lv0zUMWp8cagrz41S2aTl4VAs3tnP-GIFsW5-QAtc4vw6icRFSNrZiMskPINTz6ZnKws~x-X0n-H6Kg__",
+      "https://ik.imagekit.io/bl04duh5rm/project2.png?updatedAt=1748602316779&tr=w-1200%2Ch-628%2Cfo-auto",
     tags: ["Python", "XGBoost", "Random Forest", "Streamlit"],
     demoUrl: "https://crop-yield-prediction-system77.streamlit.app/",
     codeUrl: "https://github.com/PRIYANSHU700/Crop-Yield-Prediction-System.git",
