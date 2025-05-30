@@ -87,7 +87,7 @@ export const projects = [
     title: "Hero Section Animation",
     description: "Developed using HTML,CSS,JAVASCRIPT.",
     imageUrl:
-      "https://media-hosting.imagekit.io/fbc08ffbad9c454e/project5.png?Expires=1840899550&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=CmRGRJYe6LzXflayzF1JBrQ8QcaAsyNzxXr5WLuJ~mJYyGBBBu3BmJ5aT~x0uKMIT5TUcU0aLxESqxcBg-OJPTAQL7giX5dWNvqRubHqSSSOLSYSOpnUGKpexi7GtJ1onOvnPtEtqTW68IW3hdvxiBbgukl9kLiWpYWWTLt8JlnLE-Vcks1stbqbKaz0zvF6gyqAYFFEpJTfrIhMs5DsmX4zvLwja9mnZsYQc1qm-AwgyptfxGzxwE2GPvcqR0kKng5L5sGYC5m2IrJHver7wIEt-uFQR3u5KC24akDxYNtAnJ1CXp65ZIILfovq5wGjhUcNSAKlvQqj1u2mCw36~Q__",
+      "https://ik.imagekit.io/bl04duh5rm/project5.png?updatedAt=1748602622407&tr=w-1200%2Ch-628%2Cfo-auto",
     tags: ["HTML", "CSS", "Javascript"],
     demoUrl: "https://itzfizz-assessment.vercel.app/",
     codeUrl: "https://github.com/PRIYANSHU700/Itzfizz-assessment",
