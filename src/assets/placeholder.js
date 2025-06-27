@@ -124,6 +124,14 @@ export const testimonials = [
 
 export const experiences = [
   {
+    id: 5,
+    company: "Real IT Solutions",
+    position: "Trainee Full Stack Developer",
+    duration: "May 2025 ",
+    description:
+      "Hands-on experience in ReactJS, Spring Boot, and AI-based applications.",
+  },
+  {
     id: 1,
     company: "ThinkNext Technologies",
     position: "MERN Stack Developer",
