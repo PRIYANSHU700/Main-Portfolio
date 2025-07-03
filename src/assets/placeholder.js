@@ -49,6 +49,17 @@ export const projects = [
   },
   {
     id: 2,
+    title: "Spotify Clone",
+    description: "Created a responsive web music player with smooth playback, song search, and dynamic song display using JavaScript. Enhanced user experience with real-time updates, keyboard shortcuts, and adaptive design.",
+    imageUrl:
+      "https://ik.imagekit.io/bl04duh5rm/screenshot1.png?updatedAt=1751545181820",
+    tags: ["Javascript", "HTML", "CSS", "API"],
+    demoUrl: "https://spotify-clone77.vercel.app/",
+    codeUrl: "https://github.com/PRIYANSHU700/Spotify-Clone77",
+    featured: true,
+  },
+  {
+    id: 3,
     title: "Twitter Clone",
     description: "I built this project using MERN Stack.",
     imageUrl:
@@ -59,7 +70,7 @@ export const projects = [
     featured: true,
   },
   {
-    id: 3,
+    id: 4,
     title: "Crop Yield Prediction System",
     description:
       "Developed a Crop Yield Prediction System using Random Forest and XGBoost, achieving 95.51% accuracy with XGBoost. Built a Streamlit interface enabling farmers to input data and receive real-time yield predictions for informed decision-making.",
@@ -71,7 +82,7 @@ export const projects = [
     featured: false,
   },
   {
-    id: 4,
+    id: 5,
     title: "Portfolio Website",
     description:
       "A personal portfolio website created using Next.Js to showcase projects and skills. Deployed on Vercel for seamless CI/CD and global delivery.",
@@ -83,7 +94,7 @@ export const projects = [
     featured: false,
   },
   {
-    id: 5,
+    id: 6,
     title: "Hero Section Animation",
     description: "Developed using HTML,CSS,JAVASCRIPT.",
     imageUrl:
