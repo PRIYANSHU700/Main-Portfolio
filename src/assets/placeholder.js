@@ -15,7 +15,7 @@ When I'm not coding, you can find me doing Workout, Gaming , or experimenting wi
   avatarUrl:
     "https://ik.imagekit.io/bl04duh5rm/photo.png?updatedAt=1748604064353&tr=w-1200%2Ch-628%2Cfo-auto",
   resumeUrl:
-    "https://drive.google.com/file/d/1qs2J0DDOMw_E53h9G1Qbs12cxHUPRNj9/view?usp=sharing",
+    "https://drive.google.com/file/d/1x-34LIuK0C5aCv_I9D2OD7ONnynPPJqd/view?usp=sharing",
   social: {
     linkedin: "https://www.linkedin.com/in/priyanshu-478953257/",
     github: "https://github.com/PRIYANSHU700",
