@@ -1,4 +1,3 @@
-import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { FiMail, FiPhone, FiMapPin, FiArrowRight } from 'react-icons/fi';
 import AnimatedSection from '../components/AnimatedSection';
@@ -35,8 +34,8 @@ const Contact = () => {
           <AnimatedSection>
             <div style={{ textAlign: 'center', marginBottom: 'var(--space-16)' }}>
               <h1>Get In Touch</h1>
-              <p style={{ 
-                maxWidth: '600px', 
+              <p style={{
+                maxWidth: '600px',
                 margin: '0 auto',
                 color: 'var(--color-text-secondary)'
               }}>
@@ -45,22 +44,11 @@ const Contact = () => {
             </div>
           </AnimatedSection>
 
-          <div style={{ 
-            display: 'grid', 
-            gridTemplateColumns: 'repeat(12, 1fr)', 
-            gap: 'var(--space-10)' 
-          }}>
+          <div className="two-col-grid">
             {/* Contact Info */}
-            <AnimatedSection 
-              className="contact-info"
+            <AnimatedSection
+              className="contact-info col-span-5"
               direction="left"
-              style={{
-                gridColumn: '1 / span 5',
-                '@media (max-width: 992px)': {
-                  gridColumn: '1 / span 12',
-                  marginBottom: 'var(--space-8)'
-                }
-              }}
             >
               <div style={{
                 backgroundColor: 'var(--color-bg-secondary)',
@@ -69,28 +57,26 @@ const Contact = () => {
                 height: '100%'
               }}>
                 <h3 style={{ marginBottom: 'var(--space-6)' }}>Contact Information</h3>
-                
-                <div style={{ 
-                  display: 'flex', 
-                  flexDirection: 'column', 
+
+                <div style={{
+                  display: 'flex',
+                  flexDirection: 'column',
                   gap: 'var(--space-6)',
                   marginBottom: 'var(--space-10)'
                 }}>
                   {contactItems.map((item, index) => (
-                    <a 
+                    <a
                       key={index}
                       href={item.href}
                       target={item.label === 'Location' ? '_blank' : undefined}
                       rel={item.label === 'Location' ? 'noopener noreferrer' : undefined}
+                      className="contact-item"
                       style={{
                         display: 'flex',
                         gap: 'var(--space-4)',
                         color: 'var(--color-text-primary)',
                         textDecoration: 'none',
-                        transition: 'var(--transition-colors)',
-                        '&:hover': {
-                          color: 'var(--color-primary-500)'
-                        }
+                        transition: 'var(--transition-colors)'
                       }}
                     >
                       <div style={{
@@ -110,29 +96,23 @@ const Contact = () => {
                         <p style={{ fontWeight: '500', marginBottom: 'var(--space-1)' }}>
                           {item.label}:
                         </p>
-                        <p style={{ color: 'var(--color-text-secondary)' }}>
+                        <p style={{ color: 'var(--color-text-secondary)', margin: 0 }}>
                           {item.value}
                         </p>
                       </div>
                     </a>
                   ))}
                 </div>
-                
+
                 <h4 style={{ marginBottom: 'var(--space-4)' }}>Follow Me</h4>
                 <SocialLinks />
               </div>
             </AnimatedSection>
-            
+
             {/* Contact Form */}
-            <AnimatedSection 
-              className="contact-form"
+            <AnimatedSection
+              className="contact-form col-span-7"
               direction="right"
-              style={{
-                gridColumn: '6 / span 7',
-                '@media (max-width: 992px)': {
-                  gridColumn: '1 / span 12'
-                }
-              }}
             >
               <div style={{
                 padding: 'var(--space-8)',
@@ -141,16 +121,27 @@ const Contact = () => {
                 boxShadow: '0 10px 30px var(--color-shadow)'
               }}>
                 <h3 style={{ marginBottom: 'var(--space-6)' }}>Send Me a Message</h3>
-                
+
                 <ContactForm />
-                
-                <p style={{ 
-                  marginTop: 'var(--space-8)', 
+
+                <p style={{
+                  marginTop: 'var(--space-8)',
                   fontSize: 'var(--font-size-sm)',
                   color: 'var(--color-text-secondary)',
                   textAlign: 'center'
                 }}>
-                  Would rather connect on a project basis? <Link to="/projects" style={{ fontWeight: '500', display: 'inline-flex', alignItems: 'center', gap: 'var(--space-1)' }}>View my projects <FiArrowRight size={12} /></Link>
+                  Would rather connect on a project basis?{' '}
+                  <Link
+                    to="/projects"
+                    style={{
+                      fontWeight: '500',
+                      display: 'inline-flex',
+                      alignItems: 'center',
+                      gap: 'var(--space-1)'
+                    }}
+                  >
+                    View my projects <FiArrowRight size={12} />
+                  </Link>
                 </p>
               </div>
             </AnimatedSection>
