@@ -11,7 +11,7 @@ I have developed responsive full-stack applications, designed secure RESTful API
 
 As IT Branch Coordinator for the Training & Placement Cell, I led coordination of 15+ campus recruitment drives and organized mock tests for 150+ students. I am seeking a Software Developer / Full-Stack role where I can contribute to scalable, user-centric products.`,
   avatarUrl: "https://ik.imagekit.io/bl04duh5rm/376866.png",
-  resumeUrl: "https://drive.google.com/file/d/1l-prQ3Bcwjg4LumCtZT3EbJFCuO_uoVz/view?usp=drivesdk",
+  resumeUrl: "https://drive.google.com/file/d/118aQX0NUncWSOHF2QOBOFe9WAX2eapHw/view?usp=drivesdk",
   social: {
     linkedin: "https://www.linkedin.com/in/priyanshu-478953257/",
     github: "https://github.com/PRIYANSHU700",
