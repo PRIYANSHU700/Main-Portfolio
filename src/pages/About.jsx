@@ -1,4 +1,3 @@
-import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { FiDownload, FiArrowRight } from 'react-icons/fi';
 import AnimatedSection from '../components/AnimatedSection';
@@ -14,8 +13,8 @@ const About = () => {
           <AnimatedSection>
             <div style={{ textAlign: 'center', marginBottom: 'var(--space-16)' }}>
               <h1>About Me</h1>
-              <p style={{ 
-                maxWidth: '700px', 
+              <p style={{
+                maxWidth: '700px',
                 margin: '0 auto',
                 color: 'var(--color-text-secondary)'
               }}>
@@ -24,26 +23,14 @@ const About = () => {
             </div>
           </AnimatedSection>
 
-          <div style={{ 
-            display: 'grid', 
-            gridTemplateColumns: 'repeat(12, 1fr)', 
-            gap: 'var(--space-10)',
-            alignItems: 'center'
-          }}>
+          <div className="two-col-grid">
             {/* Profile Image */}
-            <AnimatedSection 
-              className="profile-image"
+            <AnimatedSection
+              className="profile-image col-span-5"
               direction="left"
-              style={{
-                gridColumn: '1 / span 5',
-                '@media (max-width: 992px)': {
-                  gridColumn: '1 / span 12',
-                  marginBottom: 'var(--space-8)'
-                }
-              }}
             >
               <div style={{
-                position: 'relative', 
+                position: 'relative',
                 maxWidth: '90%',
                 margin: '0 auto'
               }}>
@@ -53,8 +40,8 @@ const About = () => {
                   boxShadow: '0 20px 40px var(--color-shadow)',
                   border: '4px solid var(--color-bg-primary)'
                 }}>
-                  <img 
-                    src={personalInfo.avatarUrl} 
+                  <img
+                    src={personalInfo.avatarUrl}
                     alt={personalInfo.name}
                     style={{
                       width: '100%',
@@ -63,7 +50,7 @@ const About = () => {
                     }}
                   />
                 </div>
-                
+
                 {/* Decorative elements */}
                 <div style={{
                   position: 'absolute',
@@ -76,7 +63,7 @@ const About = () => {
                   opacity: '0.2',
                   zIndex: '-1'
                 }} />
-                
+
                 <div style={{
                   position: 'absolute',
                   top: '-20px',
@@ -90,27 +77,21 @@ const About = () => {
                 }} />
               </div>
             </AnimatedSection>
-            
+
             {/* Bio */}
-            <AnimatedSection 
-              className="bio"
+            <AnimatedSection
+              className="bio col-span-7"
               direction="right"
-              style={{
-                gridColumn: '6 / span 7',
-                '@media (max-width: 992px)': {
-                  gridColumn: '1 / span 12'
-                }
-              }}
             >
               <h2>Who am I?</h2>
-              <p style={{ 
+              <p style={{
                 marginBottom: 'var(--space-4)',
                 fontSize: 'var(--font-size-lg)',
                 color: 'var(--color-text-secondary)'
               }}>
                 I'm {personalInfo.name}, a {personalInfo.title} based in {personalInfo.location}.
               </p>
-              
+
               <div style={{ marginBottom: 'var(--space-6)' }}>
                 {personalInfo.longBio.split('\n\n').map((paragraph, index) => (
                   <p key={index} style={{ marginBottom: 'var(--space-4)' }}>
@@ -118,17 +99,11 @@ const About = () => {
                   </p>
                 ))}
               </div>
-              
-              <div style={{ 
-                display: 'flex', 
-                gap: 'var(--space-4)',
-                '@media (max-width: 480px)': {
-                  flexDirection: 'column'
-                }
-              }}>
-                <a 
-                  href={personalInfo.resumeUrl} 
-                  target="_blank" 
+
+              <div className="bio-actions">
+                <a
+                  href={personalInfo.resumeUrl}
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="button"
                   style={{
@@ -139,8 +114,8 @@ const About = () => {
                 >
                   Download Resume <FiDownload />
                 </a>
-                <Link 
-                  to="/contact" 
+                <Link
+                  to="/contact"
                   className="button secondary"
                   style={{
                     display: 'flex',
@@ -162,8 +137,8 @@ const About = () => {
           <AnimatedSection>
             <div style={{ textAlign: 'center', marginBottom: 'var(--space-16)' }}>
               <h2>My Skills</h2>
-              <p style={{ 
-                maxWidth: '600px', 
+              <p style={{
+                maxWidth: '600px',
                 margin: '0 auto',
                 color: 'var(--color-text-secondary)'
               }}>
@@ -172,10 +147,10 @@ const About = () => {
             </div>
           </AnimatedSection>
 
-          <div style={{ 
-            display: 'grid', 
-            gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', 
-            gap: 'var(--space-8)' 
+          <div style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 280px), 1fr))',
+            gap: 'var(--space-8)'
           }}>
             {skills.map((skill, index) => (
               <SkillBar key={skill.name} skill={skill} index={index} />
@@ -190,8 +165,8 @@ const About = () => {
           <AnimatedSection>
             <div style={{ textAlign: 'center', marginBottom: 'var(--space-16)' }}>
               <h2>Experience & Education</h2>
-              <p style={{ 
-                maxWidth: '600px', 
+              <p style={{
+                maxWidth: '600px',
                 margin: '0 auto',
                 color: 'var(--color-text-secondary)'
               }}>
@@ -200,23 +175,13 @@ const About = () => {
             </div>
           </AnimatedSection>
 
-          <div style={{ 
-            display: 'grid', 
-            gridTemplateColumns: 'repeat(12, 1fr)', 
-            gap: 'var(--space-10)' 
-          }}>
+          <div className="two-col-grid">
             {/* Experience */}
-            <div style={{ 
-              gridColumn: '1 / span 6',
-              '@media (max-width: 992px)': {
-                gridColumn: '1 / span 12',
-                marginBottom: 'var(--space-12)'
-              }
-            }}>
+            <div className="col-span-6-left">
               <AnimatedSection direction="left">
                 <h3 style={{ marginBottom: 'var(--space-8)' }}>Work Experience</h3>
               </AnimatedSection>
-              
+
               <div className="timeline">
                 {experiences.map((exp, index) => (
                   <AnimatedSection key={exp.id} delay={0.2 * index} direction="left">
@@ -225,8 +190,8 @@ const About = () => {
                         <h4 style={{ marginBottom: 'var(--space-1)', fontSize: 'var(--font-size-lg)' }}>
                           {exp.position}
                         </h4>
-                        <div style={{ 
-                          display: 'flex', 
+                        <div style={{
+                          display: 'flex',
                           justifyContent: 'space-between',
                           flexWrap: 'wrap',
                           gap: 'var(--space-2)',
@@ -248,18 +213,13 @@ const About = () => {
                 ))}
               </div>
             </div>
-            
+
             {/* Education */}
-            <div style={{ 
-              gridColumn: '7 / span 6',
-              '@media (max-width: 992px)': {
-                gridColumn: '1 / span 12'
-              }
-            }}>
+            <div className="col-span-6-right">
               <AnimatedSection direction="right">
                 <h3 style={{ marginBottom: 'var(--space-8)' }}>Education</h3>
               </AnimatedSection>
-              
+
               <div className="timeline">
                 {education.map((edu, index) => (
                   <AnimatedSection key={edu.id} delay={0.2 * index} direction="right">
@@ -268,8 +228,8 @@ const About = () => {
                         <h4 style={{ marginBottom: 'var(--space-1)', fontSize: 'var(--font-size-lg)' }}>
                           {edu.degree}
                         </h4>
-                        <div style={{ 
-                          display: 'flex', 
+                        <div style={{
+                          display: 'flex',
                           justifyContent: 'space-between',
                           flexWrap: 'wrap',
                           gap: 'var(--space-2)',
