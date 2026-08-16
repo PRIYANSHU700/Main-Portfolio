@@ -13,7 +13,7 @@ I specialize in React.js, Next.js and have worked with various frameworks and li
 
 When I'm not coding, you can find me doing Workout, Gaming , or experimenting with new recipes in the kitchen. I'm always eager to learn new technologies and techniques to improve my craft.`,
   avatarUrl:
-    "https://ik.imagekit.io/bl04duh5rm/photo.png?updatedAt=1748604064353&tr=w-1200%2Ch-628%2Cfo-auto",
+    "https://ik.imagekit.io/bl04duh5rm/376866.png",
   resumeUrl:
     "https://drive.google.com/file/d/1l-prQ3Bcwjg4LumCtZT3EbJFCuO_uoVz/view?usp=drivesdk",
   social: {
