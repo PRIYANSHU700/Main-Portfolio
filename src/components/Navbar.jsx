@@ -65,7 +65,7 @@ const Navbar = () => {
       variants={navbarVariants}
     >
       <div className="logo">
-        <NavLink to="/">Portfolio</NavLink>
+        <NavLink to="/">Priyanshu</NavLink>
       </div>
 
       {/* Desktop Navigation */}
