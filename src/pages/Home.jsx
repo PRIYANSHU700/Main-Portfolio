@@ -13,36 +13,11 @@ const Home = () => {
   return (
     <main>
       {/* Hero Section */}
-      <section
-        style={{
-          minHeight: '100vh',
-          display: 'flex',
-          alignItems: 'center',
-          position: 'relative',
-          overflow: 'hidden',
-          paddingTop: 'var(--space-20)'
-        }}
-      >
+      <section className="hero-section">
         <div className="container">
-          <div
-            style={{
-              display: 'grid',
-              gridTemplateColumns: 'repeat(12, 1fr)',
-              gap: 'var(--space-8)',
-              alignItems: 'center'
-            }}
-          >
+          <div className="hero-grid">
             {/* Text Content */}
-            <div
-              style={{
-                gridColumn: '1 / span 7',
-                '@media (max-width: 992px)': {
-                  gridColumn: '1 / span 12',
-                  textAlign: 'center',
-                  marginBottom: 'var(--space-12)'
-                }
-              }}
-            >
+            <div className="hero-text">
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -69,7 +44,7 @@ const Home = () => {
               >
                 {personalInfo.name}
               </motion.h1>
-              
+
               <motion.h2
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -83,34 +58,21 @@ const Home = () => {
               >
                 {personalInfo.title}
               </motion.h2>
-              
+
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.3 }}
-                style={{
-                  fontSize: 'var(--font-size-lg)',
-                  maxWidth: '600px',
-                  marginBottom: 'var(--space-8)',
-                  '@media (max-width: 992px)': {
-                    margin: '0 auto var(--space-8)'
-                  }
-                }}
+                className="hero-bio"
               >
                 {personalInfo.bio}
               </motion.p>
-              
+
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.4 }}
-                style={{
-                  display: 'flex',
-                  gap: 'var(--space-4)',
-                  '@media (max-width: 992px)': {
-                    justifyContent: 'center'
-                  }
-                }}
+                className="hero-actions"
               >
                 <Link
                   to="/projects"
@@ -123,10 +85,10 @@ const Home = () => {
                 >
                   View My Work <FiArrowRight />
                 </Link>
-                
-                <a 
-                  href={personalInfo.resumeUrl} 
-                  target="_blank" 
+
+                <a
+                  href={personalInfo.resumeUrl}
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="button secondary"
                   style={{
@@ -138,37 +100,24 @@ const Home = () => {
                   Resume <FiDownload />
                 </a>
               </motion.div>
-              
+
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
-                style={{
-                  marginTop: 'var(--space-10)',
-                  '@media (max-width: 992px)': {
-                    display: 'flex',
-                    justifyContent: 'center'
-                  }
-                }}
+                className="hero-social"
+                style={{ marginTop: 'var(--space-10)' }}
               >
                 <SocialLinks />
               </motion.div>
             </div>
-            
+
             {/* Image */}
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.7 }}
-              style={{
-                gridColumn: '8 / span 5',
-                position: 'relative',
-                '@media (max-width: 992px)': {
-                  gridColumn: '1 / span 12',
-                  margin: '0 auto',
-                  maxWidth: '400px'
-                }
-              }}
+              className="hero-image-wrap"
             >
               <div
                 style={{
@@ -179,8 +128,8 @@ const Home = () => {
                   border: '4px solid var(--color-bg-primary)'
                 }}
               >
-                <img 
-                  src={personalInfo.avatarUrl} 
+                <img
+                  src={personalInfo.avatarUrl}
                   alt={personalInfo.name}
                   style={{
                     width: '100%',
@@ -189,45 +138,9 @@ const Home = () => {
                   }}
                 />
               </div>
-              
-              <div
-                style={{
-                  position: 'absolute',
-                  bottom: '-20px',
-                  right: '-20px',
-                  width: '100px',
-                  height: '100px',
-                  borderRadius: 'var(--radius-full)',
-                  backgroundColor: 'var(--color-accent-500)',
-                  zIndex: '-1',
-                  '@media (max-width: 768px)': {
-                    width: '60px',
-                    height: '60px',
-                    bottom: '-10px',
-                    right: '-10px'
-                  }
-                }}
-              />
-              
-              <div
-                style={{
-                  position: 'absolute',
-                  top: '-30px',
-                  left: '-30px',
-                  width: '80px',
-                  height: '80px',
-                  borderRadius: 'var(--radius-full)',
-                  border: '10px solid var(--color-primary-500)',
-                  zIndex: '-1',
-                  '@media (max-width: 768px)': {
-                    width: '50px',
-                    height: '50px',
-                    top: '-15px',
-                    left: '-15px',
-                    border: '6px solid var(--color-primary-500)'
-                  }
-                }}
-              />
+
+              <div className="hero-deco-accent" />
+              <div className="hero-deco-primary" />
             </motion.div>
           </div>
         </div>
@@ -239,34 +152,34 @@ const Home = () => {
           <AnimatedSection>
             <div style={{ marginBottom: 'var(--space-12)', textAlign: 'center' }}>
               <h2>Featured Projects</h2>
-              <p style={{ 
-                maxWidth: '600px', 
-                margin: '0 auto', 
-                color: 'var(--color-text-secondary)' 
+              <p style={{
+                maxWidth: '600px',
+                margin: '0 auto',
+                color: 'var(--color-text-secondary)'
               }}>
                 A selection of my recent work and passion projects
               </p>
             </div>
           </AnimatedSection>
 
-          <div style={{ 
-            display: 'grid', 
-            gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 350px), 1fr))', 
-            gap: 'var(--space-8)' 
+          <div style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 350px), 1fr))',
+            gap: 'var(--space-8)'
           }}>
             {featuredProjects.map((project, index) => (
               <ProjectCard key={project.id} project={project} index={index} />
             ))}
           </div>
-          
+
           <AnimatedSection delay={0.6}>
-            <div style={{ 
-              display: 'flex', 
-              justifyContent: 'center', 
-              marginTop: 'var(--space-16)' 
+            <div style={{
+              display: 'flex',
+              justifyContent: 'center',
+              marginTop: 'var(--space-16)'
             }}>
-              <Link 
-                to="/projects" 
+              <Link
+                to="/projects"
                 className="button"
                 style={{
                   display: 'flex',
@@ -293,15 +206,15 @@ const Home = () => {
               color: 'white'
             }}>
               <h2 style={{ color: 'white' }}>Let's Work Together</h2>
-              <p style={{ 
-                maxWidth: '600px', 
+              <p style={{
+                maxWidth: '600px',
                 margin: '0 auto var(--space-8)',
                 opacity: '0.9'
               }}>
                 I'm always open to discussing new projects, creative ideas or opportunities to be part of your vision.
               </p>
-              <Link 
-                to="/contact" 
+              <Link
+                to="/contact"
                 className="button"
                 style={{
                   backgroundColor: 'white',
@@ -309,10 +222,7 @@ const Home = () => {
                   display: 'inline-flex',
                   alignItems: 'center',
                   gap: 'var(--space-2)',
-                  padding: 'var(--space-3) var(--space-8)',
-                  '&:hover': {
-                    backgroundColor: 'var(--color-primary-50)'
-                  }
+                  padding: 'var(--space-3) var(--space-8)'
                 }}
               >
                 Get in Touch <FiArrowRight />
