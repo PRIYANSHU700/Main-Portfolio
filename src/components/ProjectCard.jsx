@@ -51,10 +51,6 @@ const ProjectCard = ({ project, index }) => {
             width: "100%",
             height: "100%",
             objectFit: "cover",
-            transition: "transform 0.5s ease",
-            "&:hover": {
-              transform: "scale(1.05)",
-            },
           }}
         />
         {project.featured && (
@@ -124,6 +120,7 @@ const ProjectCard = ({ project, index }) => {
             display: "flex",
             gap: "var(--space-4)",
             marginTop: "var(--space-4)",
+            flexWrap: "wrap",
           }}
         >
           <a
