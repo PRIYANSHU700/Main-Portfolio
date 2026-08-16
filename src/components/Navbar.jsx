@@ -3,6 +3,7 @@ import { NavLink, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ThemeContext } from '../context/ThemeContext';
 import { FiSun, FiMoon, FiMenu, FiX } from 'react-icons/fi';
+import { personalInfo } from '../assets/placeholder';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,12 +11,10 @@ const Navbar = () => {
   const { theme, toggleTheme } = useContext(ThemeContext);
   const location = useLocation();
 
-  // Close mobile menu when changing routes
   useEffect(() => {
     setIsOpen(false);
   }, [location]);
 
-  // Handle scroll effect
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
@@ -25,7 +24,6 @@ const Navbar = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // Prevent body scroll when mobile menu is open
   useEffect(() => {
     if (isOpen) {
       document.body.style.overflow = 'hidden';
@@ -65,10 +63,9 @@ const Navbar = () => {
       variants={navbarVariants}
     >
       <div className="logo">
-        <NavLink to="/">Portfolio</NavLink>
+        <NavLink to="/">{personalInfo.name}</NavLink>
       </div>
 
-      {/* Desktop Navigation */}
       <nav className="desktop-nav">
         {navLinks.map((link) => (
           <NavLink
@@ -89,7 +86,6 @@ const Navbar = () => {
         </button>
       </nav>
 
-      {/* Mobile Navigation Toggle */}
       <div className="mobile-nav-toggle">
         <button
           onClick={() => setIsOpen(!isOpen)}
@@ -100,7 +96,6 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* Mobile Navigation Menu */}
       <AnimatePresence>
         {isOpen && (
           <motion.div
